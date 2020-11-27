@@ -135,9 +135,6 @@ class Home extends React.Component{
         </div>
       </section>
     </main>
-  
-
-
 
             )
         }

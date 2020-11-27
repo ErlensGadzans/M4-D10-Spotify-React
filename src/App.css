@@ -21,10 +21,10 @@ body {
 
 #firstContainer {
   background-image: linear-gradient(to bottom right, #1c1c1c, black);
-  padding-top: 20px;
-  width: 100vw;
-  margin-right: 0px !important;
-  margin-left: 250px !important;
+  /* padding-top: 20px; */
+  /* width: 100vw; */
+  /* margin-right: 0px !important; */
+  margin-left: 250px;
 }
 
 #imageContainer {

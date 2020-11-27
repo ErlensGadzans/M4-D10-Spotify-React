@@ -11,9 +11,10 @@ class App extends React.Component {
   render() {
     return (
       <Router>
-        <NavBar />
+        <NavBar title="Spotify"/>
         <Route path="/" exact component={Home} />
         <Route path="/artist" exact component={ArtistPage} />
+        
 
 
         <Footer />

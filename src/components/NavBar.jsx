@@ -17,7 +17,7 @@ class NavBar extends React.Component{
         <li
           class="nav-item d-flex justify-content-left form-inline mt-3 ml-4"
         >
-          <a class="nav-link" to="/">
+          <a class="nav-link" href="/">
             <i class="fa fa-home mr-2"></i> Home</a
           >
         </li>
