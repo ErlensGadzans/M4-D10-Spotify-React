@@ -14,7 +14,7 @@ class Footer extends React.Component{
             <div class="col d-flex justify-content-left form-inline">
               <img class="song-info-cover" style={{width: "70px", paddingbottom: "5px", paddingtop: "5px"}}
                 src={"https://static.stereogum.com/uploads/2017/10/queen-1507300904-640x596.jpg"} alt="" />
-              <div class="song-info-text" style={{fontsize: "10pt; color: white; margin-left: 7px"}}>
+              <div class="song-info-text" style={{fontsize: "10pt", color: "white", marginleft: "7px"}}>
                 <div class="song-info-title" style={{color: "white"}}>We will rock you</div>
                 <div class="song-info-title"><small>Queen</small></div>
               </div>

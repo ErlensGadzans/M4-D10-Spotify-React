@@ -1,4 +1,5 @@
 import React from "react";
+import { Link, withRouter } from "react-router-dom"
 
 
 class NavBar extends React.Component{
@@ -16,7 +17,7 @@ class NavBar extends React.Component{
         <li
           class="nav-item d-flex justify-content-left form-inline mt-3 ml-4"
         >
-          <a class="nav-link" href="#">
+          <a class="nav-link" to="/">
             <i class="fa fa-home mr-2"></i> Home</a
           >
         </li>
@@ -55,4 +56,4 @@ class NavBar extends React.Component{
     }
 }
 
-export default NavBar
+export default withRouter(NavBar)

@@ -2,10 +2,11 @@ import React from "react";
 import queen from "../assets/queen.jpg"
 
 
+
 class ArtistPage extends React.Component{
     render(){
         return(
-
+        
             <div class="col col-sm-12 col-md-10 col-lg-10">
             <div class="container" id="firstContainer">
               <div class="row">
@@ -220,14 +221,6 @@ class ArtistPage extends React.Component{
               </div>
             </div>
           </div>
-
-
-
-
-
-
-
-
 
             )
         }

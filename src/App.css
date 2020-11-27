@@ -4,6 +4,7 @@ body {
 .nav-link,
 .text {
   color: gray !important;
+  font-size: 17px !important;
 }
 
 .nav-link:focus {
