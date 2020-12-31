@@ -4,8 +4,8 @@ import "./App.css";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
-import ArtistPage from "./components/ArtistPage";
 import Home from "./components/Home";
+import SingleArtist from "./components/SingleArtist";
 
 class App extends React.Component {
   render() {
@@ -13,7 +13,7 @@ class App extends React.Component {
       <Router>
         <NavBar title="Spotify" />
         <Route path="/" exact component={Home} />
-        <Route path="/artist/:id" exact component={ArtistPage} />
+        <Route path="/artist/:id" exact component={SingleArtist} />
         <Footer />
       </Router>
     );
