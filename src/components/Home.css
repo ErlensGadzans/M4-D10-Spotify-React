@@ -114,7 +114,7 @@ main section {
   transition: transform 0.2s;
 }
 .album-cover {
-  width: 32rem;
+  width: 20rem;
 }
 
 .singleAlbum {
@@ -124,11 +124,5 @@ main section {
 }
 
 .container-wrapper {
-  background-color: linear-gradient(
-    90deg,
-    rgba(2, 0, 36, 1) 0%,
-    rgba(34, 43, 45, 1) 46%,
-    rgba(74, 133, 145, 1) 100%
-  );
   margin-left: 20rem;
 }

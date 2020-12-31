@@ -36,7 +36,7 @@ class Home extends React.Component {
           ) : (
             <>
               {this.state.albums.data.map((album, key) => (
-                <Container className="container-wrapper col-sm-1 col-md-2">
+                <Container className="container-wrapper col-sm-1 ">
                   <Row className="albums-wrapper my-3 " key={key}>
                     <Col className="singleAlbum ">
                       <Link
